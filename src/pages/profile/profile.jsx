@@ -1,11 +1,11 @@
-import SignupForm from "./signupComponents/SignupForm"
 import HeaderForm from "../../components/header/HeaderForm"
+import ProfileForm from "./profileComponents/profileForm"
 
 const signup = () => {
     return(
         <>
             <HeaderForm/>
-            <SignupForm/>
+            <ProfileForm/>
         </>
     )
 }

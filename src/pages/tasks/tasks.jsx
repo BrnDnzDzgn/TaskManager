@@ -1,13 +1,14 @@
-import SignupForm from "./signupComponents/SignupForm"
+import TasksForm from "./tasksComponents/TasksForm"
 import HeaderForm from "../../components/header/HeaderForm"
 
-const signup = () => {
+const tasks = () => {
     return(
         <>
             <HeaderForm/>
-            <SignupForm/>
+            <TasksForm/>
         </>
+
     )
 }
 
-export default signup
+export default tasks

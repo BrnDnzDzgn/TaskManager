@@ -1,0 +1,29 @@
+/* CalendarCustom.css */
+.react-calendar__tile {
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.completed-day {
+    background-color: #34D399;
+    color: white;
+}
+
+.incomplete-day {
+    color: black;
+}
+
+.react-calendar {
+    width: 100%;
+}
+
+.react-calendar__tile {
+    max-width: unset !important;
+    text-align: center;
+    padding: 1rem;
+}
